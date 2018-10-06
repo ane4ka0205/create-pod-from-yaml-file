@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: centos-7474788896-d49lc
+spec:
+  containers:
+  - image: centos
+    name: centos
+    stdin: true
+    tty: true
+
+
+# kubectl run -i -t --image=centos 
+# if you wanna create this pod from yaml file
